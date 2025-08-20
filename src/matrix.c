@@ -2,11 +2,13 @@
 
 #include "../include/matrix.h"
 #include "time.h"
+#include <stdlib.h> 
+#include <stdio.h>
 
 
 // Just an allocater
 Matrix allocateMatrix(int n){
-    return (int*) malloc(n *n * sizeof(int));
+    return (int*) malloc(n * n * sizeof(int));
 }
 
 // Freerer
@@ -24,4 +26,13 @@ Matrix generateRandomMatrix(int n , int min, int max){
     }
 
     return M;
+}
+void printMatrix(Matrix A, int n) {
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
+            printf("%4d ", A[idx(i,j,n)]);
+        }
+        printf("\n");
+    }
+    printf("\n");
 }

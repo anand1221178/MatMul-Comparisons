@@ -15,6 +15,11 @@ inline int idx(int i, int j, int n) {return i*n + j;}
 // Utils
 Matrix generateRandomMatrix(int n, int minVal, int maxVal);
 
+void printMatrix(Matrix A, int n);
+
+
+// Actual functions:
+void square_matrix_multiply(Matrix A, Matrix B, Matrix C, int n);
 
 
 
