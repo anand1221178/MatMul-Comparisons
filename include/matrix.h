@@ -23,7 +23,7 @@ void printMatrix(Matrix A, int n);
 void square_matrix_multiply(Matrix A, Matrix B, Matrix C, int n);
 
 Matrix pad_matrix(Matrix M, int n);
-Matrix unpad_mat(Matrix M, int n);
+Matrix unpad_mat(Matrix M, int n, int m);
 
 
 #endif
