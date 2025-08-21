@@ -7,6 +7,7 @@ typedef int* Matrix;
 
 // Allocation : TODO: 
 Matrix allocateMatrix(int n);
+Matrix allocate_zero_mat(int n);
 void freeMatrix(Matrix M);
 
 // IDX HELPER SINCE WE ARE USING 1D for best cache performance!
@@ -21,8 +22,8 @@ void printMatrix(Matrix A, int n);
 // Actual functions:
 void square_matrix_multiply(Matrix A, Matrix B, Matrix C, int n);
 
-
-
+Matrix pad_matrix(Matrix M, int n);
+Matrix unpad_mat(Matrix M, int n);
 
 
 #endif

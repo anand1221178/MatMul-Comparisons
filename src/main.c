@@ -21,14 +21,15 @@ int main(int argc, char* argv[]) {
 
     printf("Matrix size = %d\n", n);
 
+    
     srand(time(NULL));
 
 
     // Alllocate matrix random for A and B, C is just space
 
-    Matrix A = generateRandomMatrix(n,1,10);
-    Matrix B = generateRandomMatrix(n,1,10);
-    Matrix C = allocateMatrix(n);
+    Matrix A = generateRandomMatrix(n,1,100);
+    Matrix B = generateRandomMatrix(n,1,100);
+    Matrix C = allocate_zero_mat(n);
 
     // Do naive
     clock_t start = clock();
