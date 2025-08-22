@@ -3,7 +3,7 @@ CC = gcc
 CFLAGS = -Wall -O2 -Iinclude
 
 # Files
-SRC = src/main.c src/matrix.c src/naive.c
+SRC = src/main.c src/matrix.c src/naive.c src/recursive.c
 OBJ = $(SRC:.c=.o)
 TARGET = matmul
 

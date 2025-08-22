@@ -10,7 +10,7 @@ if [ ! -f ./matmul ]; then
 fi
 
 # Run with a few different matrix sizes
-for n in 2048; do
+for n in 1000; do
   echo "Running with n=$n"
   ./matmul $n
   echo

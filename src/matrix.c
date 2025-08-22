@@ -4,6 +4,7 @@
 #include "time.h"
 #include <stdlib.h> 
 #include <stdio.h>
+#include "stdbool.h"
 
 
 // Just an allocater
@@ -77,3 +78,14 @@ Matrix unpad_mat(Matrix M, int n, int m){
     return unpad;
 }
 
+// Validator:
+bool matrices_equal(Matrix A, Matrix B, int n) {
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
+            if (A[idx(i,j,n)] != B[idx(i,j,n)]) {
+                return false;  // mismatch 
+            }
+        }
+    }
+    return true;  // all good
+}
