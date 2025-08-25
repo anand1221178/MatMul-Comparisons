@@ -35,4 +35,12 @@ inline int is_pow_two(int n){
     return(n>0) && ((n & (n-1)) == 0);
 }
 
+// All for strassen now
+void add_block(Matrix A, Matrix B, Matrix C, int n, int stride_A, int stride_B, int stride_C); //C = A + B
+void sub_block(Matrix A, Matrix B, Matrix C, int n, int stride_A, int stride_B, int stride_C); //C = A + B
+
+//Just a wrappr for main call
+void strassen(Matrix A, Matrix B, Matrix C, int n);
+void strassen_recursive(Matrix A, Matrix B, Matrix C, int n, int stride_A, int stride_B, int stride_C);
+
 #endif

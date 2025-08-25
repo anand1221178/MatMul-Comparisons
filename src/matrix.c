@@ -89,3 +89,19 @@ bool matrices_equal(Matrix A, Matrix B, int n) {
     }
     return true;  // all good
 }
+
+// Strassen add block helper
+void add_block(Matrix A, Matrix B, Matrix C, int n,int stride_A, int stride_B, int stride_C) {
+    for (int i = 0; i < n; ++i) {
+        int ia = i*stride_A, ib = i*stride_B, ic = i*stride_C;
+        for (int j = 0; j < n; ++j) C[ic + j] = A[ia + j] + B[ib + j];
+    }
+}
+
+//strassen subtract block helper
+void sub_block(Matrix A, Matrix B, Matrix C, int n, int stride_A, int stride_B, int stride_C) {
+    for (int i = 0; i < n; ++i) {
+        int ia = i*stride_A, ib = i*stride_B, ic = i*stride_C;
+        for (int j = 0; j < n; ++j) C[ic + j] = A[ia + j] - B[ib + j];
+    }
+}
