@@ -91,7 +91,6 @@ int main(int argc, char* argv[]) {
     freeMatrix(C_naive);
     freeMatrix(A_pad);
     freeMatrix(B_pad);
-    freeMatrix(C_pad);
     freeMatrix(C_rec);
     freeMatrix(C_pad_str);
     freeMatrix(C_strassen);
