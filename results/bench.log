@@ -1,0 +1,727 @@
+[n=2] trial 1/5: generating matrices...
+    naive:     0.006 ms
+    recursive: 0.001 ms (padded to 2)
+    strassen:  0.002 ms (padded to 2)
+[n=2] trial 2/5: generating matrices...
+    naive:     0.000 ms
+    recursive: 0.000 ms (padded to 2)
+    strassen:  0.003 ms (padded to 2)
+[n=2] trial 3/5: generating matrices...
+    naive:     0.000 ms
+    recursive: 0.000 ms (padded to 2)
+    strassen:  0.002 ms (padded to 2)
+[n=2] trial 4/5: generating matrices...
+    naive:     0.001 ms
+    recursive: 0.001 ms (padded to 2)
+    strassen:  0.002 ms (padded to 2)
+[n=2] trial 5/5: generating matrices...
+    naive:     0.001 ms
+    recursive: 0.000 ms (padded to 2)
+    strassen:  0.001 ms (padded to 2)
+== DONE n=2 ==
+
+[n=4] trial 1/5: generating matrices...
+    naive:     0.000 ms
+    recursive: 0.001 ms (padded to 4)
+    strassen:  0.013 ms (padded to 4)
+[n=4] trial 2/5: generating matrices...
+    naive:     0.000 ms
+    recursive: 0.001 ms (padded to 4)
+    strassen:  0.013 ms (padded to 4)
+[n=4] trial 3/5: generating matrices...
+    naive:     0.001 ms
+    recursive: 0.000 ms (padded to 4)
+    strassen:  0.025 ms (padded to 4)
+[n=4] trial 4/5: generating matrices...
+    naive:     0.000 ms
+    recursive: 0.000 ms (padded to 4)
+    strassen:  0.012 ms (padded to 4)
+[n=4] trial 5/5: generating matrices...
+    naive:     0.001 ms
+    recursive: 0.000 ms (padded to 4)
+    strassen:  0.008 ms (padded to 4)
+== DONE n=4 ==
+
+[n=5] trial 1/5: generating matrices...
+    naive:     0.000 ms
+    recursive: 0.003 ms (padded to 8)
+    strassen:  0.046 ms (padded to 8)
+[n=5] trial 2/5: generating matrices...
+    naive:     0.000 ms
+    recursive: 0.002 ms (padded to 8)
+    strassen:  0.047 ms (padded to 8)
+[n=5] trial 3/5: generating matrices...
+    naive:     0.000 ms
+    recursive: 0.003 ms (padded to 8)
+    strassen:  0.046 ms (padded to 8)
+[n=5] trial 4/5: generating matrices...
+    naive:     0.001 ms
+    recursive: 0.002 ms (padded to 8)
+    strassen:  0.046 ms (padded to 8)
+[n=5] trial 5/5: generating matrices...
+    naive:     0.000 ms
+    recursive: 0.002 ms (padded to 8)
+    strassen:  0.054 ms (padded to 8)
+== DONE n=5 ==
+
+[n=7] trial 1/5: generating matrices...
+    naive:     0.001 ms
+    recursive: 0.003 ms (padded to 8)
+    strassen:  0.051 ms (padded to 8)
+[n=7] trial 2/5: generating matrices...
+    naive:     0.001 ms
+    recursive: 0.002 ms (padded to 8)
+    strassen:  0.045 ms (padded to 8)
+[n=7] trial 3/5: generating matrices...
+    naive:     0.001 ms
+    recursive: 0.003 ms (padded to 8)
+    strassen:  0.048 ms (padded to 8)
+[n=7] trial 4/5: generating matrices...
+    naive:     0.000 ms
+    recursive: 0.003 ms (padded to 8)
+    strassen:  0.046 ms (padded to 8)
+[n=7] trial 5/5: generating matrices...
+    naive:     0.001 ms
+    recursive: 0.002 ms (padded to 8)
+    strassen:  0.045 ms (padded to 8)
+== DONE n=7 ==
+
+[n=8] trial 1/5: generating matrices...
+    naive:     0.001 ms
+    recursive: 0.003 ms (padded to 8)
+    strassen:  0.045 ms (padded to 8)
+[n=8] trial 2/5: generating matrices...
+    naive:     0.001 ms
+    recursive: 0.003 ms (padded to 8)
+    strassen:  0.045 ms (padded to 8)
+[n=8] trial 3/5: generating matrices...
+    naive:     0.000 ms
+    recursive: 0.003 ms (padded to 8)
+    strassen:  0.044 ms (padded to 8)
+[n=8] trial 4/5: generating matrices...
+    naive:     0.001 ms
+    recursive: 0.003 ms (padded to 8)
+    strassen:  0.053 ms (padded to 8)
+[n=8] trial 5/5: generating matrices...
+    naive:     0.000 ms
+    recursive: 0.002 ms (padded to 8)
+    strassen:  0.046 ms (padded to 8)
+== DONE n=8 ==
+
+[n=9] trial 1/5: generating matrices...
+    naive:     0.001 ms
+    recursive: 0.018 ms (padded to 16)
+    strassen:  0.319 ms (padded to 16)
+[n=9] trial 2/5: generating matrices...
+    naive:     0.000 ms
+    recursive: 0.015 ms (padded to 16)
+    strassen:  0.324 ms (padded to 16)
+[n=9] trial 3/5: generating matrices...
+    naive:     0.001 ms
+    recursive: 0.016 ms (padded to 16)
+    strassen:  0.328 ms (padded to 16)
+[n=9] trial 4/5: generating matrices...
+    naive:     0.001 ms
+    recursive: 0.015 ms (padded to 16)
+    strassen:  0.315 ms (padded to 16)
+[n=9] trial 5/5: generating matrices...
+    naive:     0.001 ms
+    recursive: 0.015 ms (padded to 16)
+    strassen:  0.316 ms (padded to 16)
+== DONE n=9 ==
+
+[n=13] trial 1/5: generating matrices...
+    naive:     0.001 ms
+    recursive: 0.015 ms (padded to 16)
+    strassen:  0.287 ms (padded to 16)
+[n=13] trial 2/5: generating matrices...
+    naive:     0.001 ms
+    recursive: 0.016 ms (padded to 16)
+    strassen:  0.272 ms (padded to 16)
+[n=13] trial 3/5: generating matrices...
+    naive:     0.002 ms
+    recursive: 0.015 ms (padded to 16)
+    strassen:  0.289 ms (padded to 16)
+[n=13] trial 4/5: generating matrices...
+    naive:     0.002 ms
+    recursive: 0.016 ms (padded to 16)
+    strassen:  0.270 ms (padded to 16)
+[n=13] trial 5/5: generating matrices...
+    naive:     0.002 ms
+    recursive: 0.016 ms (padded to 16)
+    strassen:  0.225 ms (padded to 16)
+== DONE n=13 ==
+
+[n=16] trial 1/5: generating matrices...
+    naive:     0.002 ms
+    recursive: 0.015 ms (padded to 16)
+    strassen:  0.229 ms (padded to 16)
+[n=16] trial 2/5: generating matrices...
+    naive:     0.003 ms
+    recursive: 0.016 ms (padded to 16)
+    strassen:  0.225 ms (padded to 16)
+[n=16] trial 3/5: generating matrices...
+    naive:     0.003 ms
+    recursive: 0.017 ms (padded to 16)
+    strassen:  0.224 ms (padded to 16)
+[n=16] trial 4/5: generating matrices...
+    naive:     0.003 ms
+    recursive: 0.017 ms (padded to 16)
+    strassen:  0.224 ms (padded to 16)
+[n=16] trial 5/5: generating matrices...
+    naive:     0.003 ms
+    recursive: 0.015 ms (padded to 16)
+    strassen:  0.225 ms (padded to 16)
+== DONE n=16 ==
+
+[n=21] trial 1/5: generating matrices...
+    naive:     0.031 ms
+    recursive: 0.129 ms (padded to 32)
+    strassen:  1.716 ms (padded to 32)
+[n=21] trial 2/5: generating matrices...
+    naive:     0.009 ms
+    recursive: 0.126 ms (padded to 32)
+    strassen:  1.738 ms (padded to 32)
+[n=21] trial 3/5: generating matrices...
+    naive:     0.007 ms
+    recursive: 0.126 ms (padded to 32)
+    strassen:  1.478 ms (padded to 32)
+[n=21] trial 4/5: generating matrices...
+    naive:     0.006 ms
+    recursive: 0.106 ms (padded to 32)
+    strassen:  1.461 ms (padded to 32)
+[n=21] trial 5/5: generating matrices...
+    naive:     0.006 ms
+    recursive: 0.107 ms (padded to 32)
+    strassen:  1.463 ms (padded to 32)
+== DONE n=21 ==
+
+[n=29] trial 1/5: generating matrices...
+    naive:     0.016 ms
+    recursive: 0.105 ms (padded to 32)
+    strassen:  1.414 ms (padded to 32)
+[n=29] trial 2/5: generating matrices...
+    naive:     0.017 ms
+    recursive: 0.095 ms (padded to 32)
+    strassen:  1.261 ms (padded to 32)
+[n=29] trial 3/5: generating matrices...
+    naive:     0.014 ms
+    recursive: 0.091 ms (padded to 32)
+    strassen:  1.253 ms (padded to 32)
+[n=29] trial 4/5: generating matrices...
+    naive:     0.017 ms
+    recursive: 0.098 ms (padded to 32)
+    strassen:  1.253 ms (padded to 32)
+[n=29] trial 5/5: generating matrices...
+    naive:     0.017 ms
+    recursive: 0.097 ms (padded to 32)
+    strassen:  1.256 ms (padded to 32)
+== DONE n=29 ==
+
+[n=32] trial 1/5: generating matrices...
+    naive:     0.022 ms
+    recursive: 0.090 ms (padded to 32)
+    strassen:  1.127 ms (padded to 32)
+[n=32] trial 2/5: generating matrices...
+    naive:     0.021 ms
+    recursive: 0.085 ms (padded to 32)
+    strassen:  1.118 ms (padded to 32)
+[n=32] trial 3/5: generating matrices...
+    naive:     0.019 ms
+    recursive: 0.086 ms (padded to 32)
+    strassen:  1.117 ms (padded to 32)
+[n=32] trial 4/5: generating matrices...
+    naive:     0.021 ms
+    recursive: 0.084 ms (padded to 32)
+    strassen:  1.129 ms (padded to 32)
+[n=32] trial 5/5: generating matrices...
+    naive:     0.020 ms
+    recursive: 0.092 ms (padded to 32)
+    strassen:  1.091 ms (padded to 32)
+== DONE n=32 ==
+
+[n=37] trial 1/5: generating matrices...
+    naive:     0.028 ms
+    recursive: 0.572 ms (padded to 64)
+    strassen:  7.053 ms (padded to 64)
+[n=37] trial 2/5: generating matrices...
+    naive:     0.020 ms
+    recursive: 0.522 ms (padded to 64)
+    strassen:  6.371 ms (padded to 64)
+[n=37] trial 3/5: generating matrices...
+    naive:     0.025 ms
+    recursive: 0.530 ms (padded to 64)
+    strassen:  5.938 ms (padded to 64)
+[n=37] trial 4/5: generating matrices...
+    naive:     0.023 ms
+    recursive: 0.483 ms (padded to 64)
+    strassen:  5.570 ms (padded to 64)
+[n=37] trial 5/5: generating matrices...
+    naive:     0.022 ms
+    recursive: 0.455 ms (padded to 64)
+    strassen:  5.351 ms (padded to 64)
+== DONE n=37 ==
+
+[n=61] trial 1/5: generating matrices...
+    naive:     0.071 ms
+    recursive: 0.439 ms (padded to 64)
+    strassen:  5.109 ms (padded to 64)
+[n=61] trial 2/5: generating matrices...
+    naive:     0.068 ms
+    recursive: 0.418 ms (padded to 64)
+    strassen:  5.001 ms (padded to 64)
+[n=61] trial 3/5: generating matrices...
+    naive:     0.066 ms
+    recursive: 0.405 ms (padded to 64)
+    strassen:  4.825 ms (padded to 64)
+[n=61] trial 4/5: generating matrices...
+    naive:     0.064 ms
+    recursive: 0.394 ms (padded to 64)
+    strassen:  4.791 ms (padded to 64)
+[n=61] trial 5/5: generating matrices...
+    naive:     0.063 ms
+    recursive: 0.387 ms (padded to 64)
+    strassen:  4.573 ms (padded to 64)
+== DONE n=61 ==
+
+[n=64] trial 1/5: generating matrices...
+    naive:     0.072 ms
+    recursive: 0.379 ms (padded to 64)
+    strassen:  4.505 ms (padded to 64)
+[n=64] trial 2/5: generating matrices...
+    naive:     0.071 ms
+    recursive: 0.370 ms (padded to 64)
+    strassen:  4.417 ms (padded to 64)
+[n=64] trial 3/5: generating matrices...
+    naive:     0.072 ms
+    recursive: 0.369 ms (padded to 64)
+    strassen:  4.391 ms (padded to 64)
+[n=64] trial 4/5: generating matrices...
+    naive:     0.075 ms
+    recursive: 0.343 ms (padded to 64)
+    strassen:  4.152 ms (padded to 64)
+[n=64] trial 5/5: generating matrices...
+    naive:     0.077 ms
+    recursive: 0.344 ms (padded to 64)
+    strassen:  4.269 ms (padded to 64)
+== DONE n=64 ==
+
+[n=69] trial 1/5: generating matrices...
+    naive:     0.084 ms
+    recursive: 2.836 ms (padded to 128)
+    strassen:  28.228 ms (padded to 128)
+[n=69] trial 2/5: generating matrices...
+    naive:     0.102 ms
+    recursive: 2.890 ms (padded to 128)
+    strassen:  28.459 ms (padded to 128)
+[n=69] trial 3/5: generating matrices...
+    naive:     0.087 ms
+    recursive: 2.848 ms (padded to 128)
+    strassen:  29.208 ms (padded to 128)
+[n=69] trial 4/5: generating matrices...
+    naive:     0.091 ms
+    recursive: 2.659 ms (padded to 128)
+    strassen:  28.730 ms (padded to 128)
+[n=69] trial 5/5: generating matrices...
+    naive:     0.086 ms
+    recursive: 2.842 ms (padded to 128)
+    strassen:  28.583 ms (padded to 128)
+== DONE n=69 ==
+
+[n=125] trial 1/5: generating matrices...
+    naive:     0.572 ms
+    recursive: 2.897 ms (padded to 128)
+    strassen:  28.295 ms (padded to 128)
+[n=125] trial 2/5: generating matrices...
+    naive:     0.561 ms
+    recursive: 3.079 ms (padded to 128)
+    strassen:  28.229 ms (padded to 128)
+[n=125] trial 3/5: generating matrices...
+    naive:     0.543 ms
+    recursive: 2.903 ms (padded to 128)
+    strassen:  29.084 ms (padded to 128)
+[n=125] trial 4/5: generating matrices...
+    naive:     0.571 ms
+    recursive: 2.924 ms (padded to 128)
+    strassen:  29.006 ms (padded to 128)
+[n=125] trial 5/5: generating matrices...
+    naive:     0.573 ms
+    recursive: 2.890 ms (padded to 128)
+    strassen:  28.708 ms (padded to 128)
+== DONE n=125 ==
+
+[n=128] trial 1/5: generating matrices...
+    naive:     0.608 ms
+    recursive: 2.843 ms (padded to 128)
+    strassen:  27.965 ms (padded to 128)
+[n=128] trial 2/5: generating matrices...
+    naive:     0.638 ms
+    recursive: 2.894 ms (padded to 128)
+    strassen:  28.149 ms (padded to 128)
+[n=128] trial 3/5: generating matrices...
+    naive:     0.641 ms
+    recursive: 2.961 ms (padded to 128)
+    strassen:  28.200 ms (padded to 128)
+[n=128] trial 4/5: generating matrices...
+    naive:     0.615 ms
+    recursive: 2.903 ms (padded to 128)
+    strassen:  28.419 ms (padded to 128)
+[n=128] trial 5/5: generating matrices...
+    naive:     0.635 ms
+    recursive: 2.924 ms (padded to 128)
+    strassen:  29.047 ms (padded to 128)
+== DONE n=128 ==
+
+[n=133] trial 1/5: generating matrices...
+    naive:     0.686 ms
+    recursive: 22.786 ms (padded to 256)
+    strassen:  202.782 ms (padded to 256)
+[n=133] trial 2/5: generating matrices...
+    naive:     0.708 ms
+    recursive: 22.862 ms (padded to 256)
+    strassen:  197.537 ms (padded to 256)
+[n=133] trial 3/5: generating matrices...
+    naive:     0.690 ms
+    recursive: 22.724 ms (padded to 256)
+    strassen:  198.350 ms (padded to 256)
+[n=133] trial 4/5: generating matrices...
+    naive:     0.682 ms
+    recursive: 23.021 ms (padded to 256)
+    strassen:  197.121 ms (padded to 256)
+[n=133] trial 5/5: generating matrices...
+    naive:     0.656 ms
+    recursive: 22.801 ms (padded to 256)
+    strassen:  197.508 ms (padded to 256)
+== DONE n=133 ==
+
+[n=253] trial 1/5: generating matrices...
+    naive:     4.677 ms
+    recursive: 22.401 ms (padded to 256)
+    strassen:  196.602 ms (padded to 256)
+[n=253] trial 2/5: generating matrices...
+    naive:     4.798 ms
+    recursive: 23.528 ms (padded to 256)
+    strassen:  190.564 ms (padded to 256)
+[n=253] trial 3/5: generating matrices...
+    naive:     4.702 ms
+    recursive: 23.257 ms (padded to 256)
+    strassen:  193.537 ms (padded to 256)
+[n=253] trial 4/5: generating matrices...
+    naive:     4.721 ms
+    recursive: 23.372 ms (padded to 256)
+    strassen:  194.659 ms (padded to 256)
+[n=253] trial 5/5: generating matrices...
+    naive:     4.666 ms
+    recursive: 23.001 ms (padded to 256)
+    strassen:  197.527 ms (padded to 256)
+== DONE n=253 ==
+
+[n=256] trial 1/5: generating matrices...
+    naive:     9.107 ms
+    recursive: 23.557 ms (padded to 256)
+    strassen:  196.563 ms (padded to 256)
+[n=256] trial 2/5: generating matrices...
+    naive:     9.092 ms
+    recursive: 23.089 ms (padded to 256)
+    strassen:  199.963 ms (padded to 256)
+[n=256] trial 3/5: generating matrices...
+    naive:     9.002 ms
+    recursive: 22.913 ms (padded to 256)
+    strassen:  198.341 ms (padded to 256)
+[n=256] trial 4/5: generating matrices...
+    naive:     8.743 ms
+    recursive: 23.238 ms (padded to 256)
+    strassen:  197.305 ms (padded to 256)
+[n=256] trial 5/5: generating matrices...
+    naive:     9.101 ms
+    recursive: 22.884 ms (padded to 256)
+    strassen:  200.272 ms (padded to 256)
+== DONE n=256 ==
+
+[n=261] trial 1/5: generating matrices...
+    naive:     5.508 ms
+    recursive: 185.141 ms (padded to 512)
+    strassen:  1377.084 ms (padded to 512)
+[n=261] trial 2/5: generating matrices...
+    naive:     5.535 ms
+    recursive: 182.972 ms (padded to 512)
+    strassen:  1410.449 ms (padded to 512)
+[n=261] trial 3/5: generating matrices...
+    naive:     5.383 ms
+    recursive: 185.342 ms (padded to 512)
+    strassen:  1425.287 ms (padded to 512)
+[n=261] trial 4/5: generating matrices...
+    naive:     5.485 ms
+    recursive: 185.434 ms (padded to 512)
+    strassen:  1399.444 ms (padded to 512)
+[n=261] trial 5/5: generating matrices...
+    naive:     5.509 ms
+    recursive: 185.531 ms (padded to 512)
+    strassen:  1406.063 ms (padded to 512)
+== DONE n=261 ==
+
+[n=509] trial 1/5: generating matrices...
+    naive:     37.769 ms
+    recursive: 189.201 ms (padded to 512)
+    strassen:  1413.301 ms (padded to 512)
+[n=509] trial 2/5: generating matrices...
+    naive:     38.635 ms
+    recursive: 188.188 ms (padded to 512)
+    strassen:  1373.720 ms (padded to 512)
+[n=509] trial 3/5: generating matrices...
+    naive:     38.413 ms
+    recursive: 187.556 ms (padded to 512)
+    strassen:  1382.901 ms (padded to 512)
+[n=509] trial 4/5: generating matrices...
+    naive:     38.320 ms
+    recursive: 188.343 ms (padded to 512)
+    strassen:  1398.162 ms (padded to 512)
+[n=509] trial 5/5: generating matrices...
+    naive:     37.367 ms
+    recursive: 187.572 ms (padded to 512)
+    strassen:  1398.492 ms (padded to 512)
+== DONE n=509 ==
+
+[n=512] trial 1/5: generating matrices...
+    naive:     77.766 ms
+    recursive: 189.570 ms (padded to 512)
+    strassen:  1386.169 ms (padded to 512)
+[n=512] trial 2/5: generating matrices...
+    naive:     77.399 ms
+    recursive: 189.123 ms (padded to 512)
+    strassen:  1393.391 ms (padded to 512)
+[n=512] trial 3/5: generating matrices...
+    naive:     78.178 ms
+    recursive: 190.394 ms (padded to 512)
+    strassen:  1398.727 ms (padded to 512)
+[n=512] trial 4/5: generating matrices...
+    naive:     77.671 ms
+    recursive: 189.907 ms (padded to 512)
+    strassen:  1399.499 ms (padded to 512)
+[n=512] trial 5/5: generating matrices...
+    naive:     78.228 ms
+    recursive: 190.564 ms (padded to 512)
+    strassen:  1389.331 ms (padded to 512)
+== DONE n=512 ==
+
+[n=517] trial 1/5: generating matrices...
+    naive:     43.266 ms
+    recursive: 1525.788 ms (padded to 1024)
+    strassen:  9726.761 ms (padded to 1024)
+[n=517] trial 2/5: generating matrices...
+    naive:     42.359 ms
+    recursive: 1527.545 ms (padded to 1024)
+    strassen:  9773.578 ms (padded to 1024)
+[n=517] trial 3/5: generating matrices...
+    naive:     43.275 ms
+    recursive: 1529.405 ms (padded to 1024)
+    strassen:  9770.346 ms (padded to 1024)
+[n=517] trial 4/5: generating matrices...
+    naive:     42.910 ms
+    recursive: 1535.813 ms (padded to 1024)
+    strassen:  10173.369 ms (padded to 1024)
+[n=517] trial 5/5: generating matrices...
+    naive:     43.284 ms
+    recursive: 1548.216 ms (padded to 1024)
+    strassen:  10248.564 ms (padded to 1024)
+== DONE n=517 ==
+
+[n=1021] trial 1/5: generating matrices...
+    naive:     382.515 ms
+    recursive: 1574.575 ms (padded to 1024)
+    strassen:  10088.371 ms (padded to 1024)
+[n=1021] trial 2/5: generating matrices...
+    naive:     385.655 ms
+    recursive: 1584.495 ms (padded to 1024)
+    strassen:  10230.241 ms (padded to 1024)
+[n=1021] trial 3/5: generating matrices...
+    naive:     382.338 ms
+    recursive: 1570.970 ms (padded to 1024)
+    strassen:  9997.044 ms (padded to 1024)
+[n=1021] trial 4/5: generating matrices...
+    naive:     380.906 ms
+    recursive: 1571.202 ms (padded to 1024)
+    strassen:  9944.871 ms (padded to 1024)
+[n=1021] trial 5/5: generating matrices...
+    naive:     381.953 ms
+    recursive: 1572.908 ms (padded to 1024)
+    strassen:  10061.410 ms (padded to 1024)
+== DONE n=1021 ==
+
+[n=1024] trial 1/5: generating matrices...
+    naive:     909.671 ms
+    recursive: 1569.422 ms (padded to 1024)
+    strassen:  10007.621 ms (padded to 1024)
+[n=1024] trial 2/5: generating matrices...
+    naive:     909.669 ms
+    recursive: 1573.000 ms (padded to 1024)
+    strassen:  10159.362 ms (padded to 1024)
+[n=1024] trial 3/5: generating matrices...
+    naive:     911.006 ms
+    recursive: 1573.319 ms (padded to 1024)
+    strassen:  10151.724 ms (padded to 1024)
+[n=1024] trial 4/5: generating matrices...
+    naive:     910.980 ms
+    recursive: 1574.766 ms (padded to 1024)
+    strassen:  10261.766 ms (padded to 1024)
+[n=1024] trial 5/5: generating matrices...
+    naive:     910.012 ms
+    recursive: 1576.744 ms (padded to 1024)
+    strassen:  10121.159 ms (padded to 1024)
+== DONE n=1024 ==
+
+[n=1029] trial 1/5: generating matrices...
+    naive:     404.226 ms
+    recursive: 15134.457 ms (padded to 2048)
+    strassen:  69369.663 ms (padded to 2048)
+[n=1029] trial 2/5: generating matrices...
+    naive:     404.412 ms
+    recursive: 15426.853 ms (padded to 2048)
+    strassen:  69737.528 ms (padded to 2048)
+[n=1029] trial 3/5: generating matrices...
+    naive:     407.842 ms
+    recursive: 15195.388 ms (padded to 2048)
+    strassen:  69919.113 ms (padded to 2048)
+[n=1029] trial 4/5: generating matrices...
+    naive:     406.276 ms
+    recursive: 15228.655 ms (padded to 2048)
+    strassen:  70543.369 ms (padded to 2048)
+[n=1029] trial 5/5: generating matrices...
+    naive:     406.081 ms
+    recursive: 15420.488 ms (padded to 2048)
+    strassen:  70232.769 ms (padded to 2048)
+== DONE n=1029 ==
+
+[n=2045] trial 1/5: generating matrices...
+    naive:     4594.468 ms
+    recursive: 15332.550 ms (padded to 2048)
+    strassen:  69766.897 ms (padded to 2048)
+[n=2045] trial 2/5: generating matrices...
+    naive:     4579.074 ms
+    recursive: 15350.976 ms (padded to 2048)
+    strassen:  70005.008 ms (padded to 2048)
+[n=2045] trial 3/5: generating matrices...
+    naive:     4584.444 ms
+    recursive: 15333.167 ms (padded to 2048)
+    strassen:  69860.821 ms (padded to 2048)
+[n=2045] trial 4/5: generating matrices...
+    naive:     4584.929 ms
+    recursive: 15355.009 ms (padded to 2048)
+    strassen:  70477.396 ms (padded to 2048)
+[n=2045] trial 5/5: generating matrices...
+    naive:     4608.808 ms
+    recursive: 15480.112 ms (padded to 2048)
+    strassen:  70508.743 ms (padded to 2048)
+== DONE n=2045 ==
+
+[n=2048] trial 1/5: generating matrices...
+    naive:     11440.741 ms
+    recursive: 15384.997 ms (padded to 2048)
+    strassen:  70899.656 ms (padded to 2048)
+[n=2048] trial 2/5: generating matrices...
+    naive:     11185.268 ms
+    recursive: 15362.258 ms (padded to 2048)
+    strassen:  70195.550 ms (padded to 2048)
+[n=2048] trial 3/5: generating matrices...
+    naive:     11356.184 ms
+    recursive: 15357.603 ms (padded to 2048)
+    strassen:  70124.494 ms (padded to 2048)
+[n=2048] trial 4/5: generating matrices...
+    naive:     11290.635 ms
+    recursive: 15392.551 ms (padded to 2048)
+    strassen:  70243.846 ms (padded to 2048)
+[n=2048] trial 5/5: generating matrices...
+    naive:     11537.483 ms
+    recursive: 15393.450 ms (padded to 2048)
+    strassen:  70884.200 ms (padded to 2048)
+== DONE n=2048 ==
+
+[n=2053] trial 1/5: generating matrices...
+    naive:     4910.717 ms
+    recursive: 171595.964 ms (padded to 4096)
+    strassen:  492009.680 ms (padded to 4096)
+[n=2053] trial 2/5: generating matrices...
+    naive:     4887.671 ms
+    recursive: 172476.569 ms (padded to 4096)
+    strassen:  500369.633 ms (padded to 4096)
+[n=2053] trial 3/5: generating matrices...
+    naive:     4864.243 ms
+    recursive: 169619.664 ms (padded to 4096)
+    strassen:  490547.717 ms (padded to 4096)
+[n=2053] trial 4/5: generating matrices...
+    naive:     4901.998 ms
+    recursive: 169844.029 ms (padded to 4096)
+    strassen:  491856.815 ms (padded to 4096)
+[n=2053] trial 5/5: generating matrices...
+    naive:     4898.776 ms
+    recursive: 169935.811 ms (padded to 4096)
+    strassen:  492912.381 ms (padded to 4096)
+== DONE n=2053 ==
+
+[n=4093] trial 1/5: generating matrices...
+    naive:     172821.824 ms
+    recursive: 174263.001 ms (padded to 4096)
+    strassen:  503474.145 ms (padded to 4096)
+[n=4093] trial 2/5: generating matrices...
+    naive:     168201.440 ms
+    recursive: 175239.247 ms (padded to 4096)
+    strassen:  504987.754 ms (padded to 4096)
+[n=4093] trial 3/5: generating matrices...
+    naive:     168078.377 ms
+    recursive: 174948.833 ms (padded to 4096)
+    strassen:  506284.725 ms (padded to 4096)
+[n=4093] trial 4/5: generating matrices...
+    naive:     168701.804 ms
+    recursive: 175148.030 ms (padded to 4096)
+    strassen:  504327.547 ms (padded to 4096)
+[n=4093] trial 5/5: generating matrices...
+    naive:     167271.268 ms
+    recursive: 172112.501 ms (padded to 4096)
+    strassen:  497756.666 ms (padded to 4096)
+== DONE n=4093 ==
+
+[n=4096] trial 1/5: generating matrices...
+    naive:     254133.140 ms
+    recursive: 171980.600 ms (padded to 4096)
+    strassen:  496357.844 ms (padded to 4096)
+[n=4096] trial 2/5: generating matrices...
+    naive:     253314.379 ms
+    recursive: 171100.562 ms (padded to 4096)
+    strassen:  502721.714 ms (padded to 4096)
+[n=4096] trial 3/5: generating matrices...
+    naive:     267260.157 ms
+    recursive: 172441.607 ms (padded to 4096)
+    strassen:  516394.063 ms (padded to 4096)
+[n=4096] trial 4/5: generating matrices...
+    naive:     260932.731 ms
+    recursive: 169440.003 ms (padded to 4096)
+    strassen:  494346.796 ms (padded to 4096)
+[n=4096] trial 5/5: generating matrices...
+    naive:     253429.649 ms
+    recursive: 170316.402 ms (padded to 4096)
+    strassen:  500501.960 ms (padded to 4096)
+== DONE n=4096 ==
+
+[n=4101] trial 1/5: generating matrices...
+    naive:     163509.689 ms
+    recursive: 1359293.167 ms (padded to 8192)
+    strassen:  3480428.453 ms (padded to 8192)
+[n=4101] trial 2/5: generating matrices...
+    naive:     160175.260 ms
+    recursive: 1346644.853 ms (padded to 8192)
+    strassen:  3402102.827 ms (padded to 8192)
+[n=4101] trial 3/5: generating matrices...
+    naive:     158991.139 ms
+    recursive: 1341709.665 ms (padded to 8192)
+    strassen:  3393657.689 ms (padded to 8192)
+[n=4101] trial 4/5: generating matrices...
+    naive:     158625.985 ms
+    recursive: 1338798.620 ms (padded to 8192)
+    strassen:  3389092.792 ms (padded to 8192)
+[n=4101] trial 5/5: generating matrices...
+    naive:     158498.162 ms
+    recursive: 1337700.020 ms (padded to 8192)
+    strassen:  3388222.719 ms (padded to 8192)
+== DONE n=4101 ==
+
+[n=8189] trial 1/5: generating matrices...

@@ -13,7 +13,7 @@ Matrix allocate_zero_mat(int n);
 void freeMatrix(Matrix M);
 
 // IDX HELPER SINCE WE ARE USING 1D for best cache performance!
-inline int idx(int i, int j, int n) {return i*n + j;}
+static inline int idx(int i, int j, int n) {return i*n + j;}
 
 // Utils
 Matrix generateRandomMatrix(int n, int minVal, int maxVal);
@@ -31,7 +31,7 @@ Matrix unpad_mat(Matrix M, int n, int m);
 
 
 // Check power of 2
-inline int is_pow_two(int n){
+static inline int is_pow_two(int n){
     return(n>0) && ((n & (n-1)) == 0);
 }
 
