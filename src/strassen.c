@@ -70,13 +70,13 @@ void strassen_recursive(Matrix A, Matrix B, Matrix C, int n,int stride_A, int st
     add_block(B11, B12, S10, h, stride_B, stride_B, h); // S10 = B11 + B12
 
     //All 7 products
-    strassen_recursive(A11, S1,  P1, h, stride_A, h,       h); // P1 = A11*S1
-    strassen_recursive(S2,  B22, P2, h, h,       stride_B, h); // P2 = S2*B22
-    strassen_recursive(S3,  B11, P3, h, h,       stride_B, h); // P3 = S3*B11
-    strassen_recursive(A22, S4,  P4, h, stride_A, h,       h); // P4 = A22*S4
-    strassen_recursive(S5,  S6,  P5, h, h,       h,       h); // P5 = S5*S6
-    strassen_recursive(S7,  S8,  P6, h, h,       h,       h); // P6 = S7*S8
-    strassen_recursive(S9,  S10, P7, h, h,       h,       h); // P7 = S9*S10
+    strassen_recursive(A11, S1,  P1, h, stride_A, h,h); // P1 = A11*S1
+    strassen_recursive(S2,  B22, P2, h, h,stride_B,h); // P2 = S2*B22
+    strassen_recursive(S3,  B11, P3, h, h,stride_B,h); // P3 = S3*B11
+    strassen_recursive(A22, S4,  P4, h, stride_A,h,h); // P4 = A22*S4
+    strassen_recursive(S5,  S6,  P5, h, h,h,h); // P5 = S5*S6
+    strassen_recursive(S7,  S8,  P6, h, h,h,h); // P6 = S7*S8
+    strassen_recursive(S9,  S10, P7, h, h,h,h); // P7 = S9*S10
 
     
     // C11 = P5 + P4 - P2 + P6

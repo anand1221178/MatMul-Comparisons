@@ -73,7 +73,7 @@ int main(int argc, char* argv[]) {
     freeMatrix(C_pad);
 
 
-    Matrix C_pad_str = allocate_zero_mat(m);    // zero not strictly required with our combine, but safe
+    Matrix C_pad_str = allocate_zero_mat(m);   
     start = clock();
     strassen(A_pad, B_pad, C_pad_str, m);
     end = clock();
